@@ -4,4 +4,4 @@ from .models import Note
 class NoteSerializer(ModelSerializer):
     class Meta:
         model = Note
-        fields = ('id', 'description', 'completed', 'created_on')
+        fields = ('id', 'description', 'completed', 'created_on', 'user')
