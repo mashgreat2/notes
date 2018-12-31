@@ -1,1 +1,1 @@
-# A Fullstack app built with Django, React, and MobX.
+# A Fullstack simple Notes app built with Django, React, and MobX.
