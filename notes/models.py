@@ -17,6 +17,7 @@ class Note(models.Model):
         return self.description[:30]
 
     def save(self, force_insert=False, force_update=False, using=None, update_fields=None):
-        self.created_on = timezone.now()
+        if self.pk is None:
+            self.created_on = timezone.now() # only save the time on new objects created.
         super().save(force_insert, force_update, using, update_fields)
 
