@@ -1,6 +1,6 @@
 # A simple CRUD app built with Django, React, and MobX.
 
-![](react_django_mobx_notes_app_1080.gif)
+![](react_django_mobx_app_2.gif)
 
 In the backend, we have Django and Django Rest Framework. In the frontend, we have React and MobX. 
 
