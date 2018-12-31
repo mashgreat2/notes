@@ -7,5 +7,5 @@ In the backend, we have Django and Django Rest Framework. In the frontend, we ha
 With the endpoints built on the backend, we can create a single note, update that note, 
 and delete that note. List of all notes are also viewable by one endpoint.
 
-Next step of this app would be to implement authentication and use that authentication in the frontend to only allow 
-logged in users to create, update, delete notes.
+The next step of in this app would be to use authentication in the frontend and only allow 
+logged in users to create, update, delete notes in React frontend.
